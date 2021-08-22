@@ -1,2 +1,16 @@
 <app-header></app-header>
 <app-quote-cards></app-quote-cards>
+<form #basicForm="" (submit)="getData(basicForm.value)">
+  <input type="text" ngModel name="user" placeholder="enter user useranme">
+  <br> <br>
+  <input type="text" ngModel name="email" placeholder="enter user email">
+  <br> <br>
+  <input type="text" ngModel name="password" placeholder="enter user password">
+  <br> <br>
+  <button>register</button>
+</form>
+<ul>
+  <li>{{userData.user}}</li>
+  <li>{{userData.email}}</li>
+  <li>{{userData.password}}</li>
+</ul>
