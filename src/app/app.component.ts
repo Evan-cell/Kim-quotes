@@ -68,6 +68,11 @@ export class AppComponent {
     this.count9--
     console.warn(this.count)
   }
-
+  getData(data:NgForm)
+  {
+    console.warn(data)
+    this.userData=data
+  }
+  userData:any={};
 
 }

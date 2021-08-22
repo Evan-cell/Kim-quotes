@@ -1,0 +1,5 @@
+#1.QUOTE APP
+#2.DESCRIPTION
+The app is a quote app where one can read quotes like the quotes that they love or dislike
+#3 INSTALLATION
+The app is created using Angular Cli you can run the command ng new then type the name of the app in your computers terminal.
