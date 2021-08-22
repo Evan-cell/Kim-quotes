@@ -8,10 +8,5 @@ import { NgForm } from '@angular/forms';
 })
 export class AppComponent {
   title = 'quotes';
-  userData:any;
-  getData(data:NgForm)
-  {
-    console.warn(data)
-    this.userData = data
-  }
+  
 }
