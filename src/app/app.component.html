@@ -1,5 +1,39 @@
 <app-header></app-header>
 <app-quote-cards></app-quote-cards>
+<div class="container">
+  <h1 class="title">QUOTES</h1>
+  <ul class="grid cards">
+    <li><h2>Mahatma Gandhi</h2>
+      <p>“Darkness cannot drive out darkness; only light can do that. Hate cannot drive out hate; only love can do that.”
+      </p>
+      <button class="button" (click)="counter()"><span>{{count}} <br>upvote</span></button><button class="button"(click)="counter5()"><span>{{count5}} <br>downvote</span></button>
+    </li>
+    <li><h2>Friedrich Nietzsche</h2>
+      <p>“If you look at what you have in life, you’ll always have more. If you look at what you don’t have in life, you’ll never have enough.”
+      </p>
+      <button class="button"(click)="counter1()"><span>{{count1}} <br>upvote</span></button><button class="button"(click)="counter6()"><span>{{count6}} <br>downvote</span></button>
+    </li>
+    <li><h2>Bernard M. Baruch</h2>
+      <p>“Be who you are and say what you feel, because those who mind don’t matter and those who matter don’t mind.”
+      </p>
+      <button class="button"(click)="counter2()"><span>{{count2}} <br>upvote</span></button><button class="button"(click)="counter7()"><span>{{count7}} <br>downvote</span></button>
+    </li>
+    <li><h2>Plato</h2>
+      <p>“Wise men speak because they have something to say; fools because they have to say something.”
+      </p>
+      <button class="button"(click)="counter3()"><span>{{count3}} <br>upvote</span></button><button class="button"(click)="counter8()"><span>{{count8}} <br>downvote</span></button>
+    </li>
+    <li><h2>Robert Frost</h2>
+      <p>“Two roads diverged in a wood, and I—I took the one less traveled by, And that has made all the difference.”
+      </p>
+      <button class="button"(click)="counter4()"><span>{{count4}} <br>upvote</span></button><button class="button"(click)="counter9()"><span>{{count9}} <br>downvote</span></button>
+    </li>
+
+  </ul>
+  </div>
+
+
+<div class="container">
 <div id="form-main">
   <div id="form-div">
     <form class="form" id="form1">
@@ -9,18 +43,19 @@
       </p>
 
       <p class="email">
-        <input name="email" type="text" class="validate[required,custom[email]] feedback-input" id="email" placeholder="Email" />
+        <input name="email" type="text" class="validate[required,custom[email]] feedback-input" id="email" placeholder="Author" />
       </p>
 
       <p class="text">
-        <textarea name="text" class="validate[required,length[6,300]] feedback-input" id="comment" placeholder="Comment"></textarea>
+        <textarea name="text" class="validate[required,length[6,300]] feedback-input" id="comment" placeholder="Quote"></textarea>
       </p>
 
 
       <div class="submit">
-        <input type="submit" value="SEND" id="button-blue"/>
+        <input type="submit" value="Add Quote" id="button-blue"/>
         <div class="ease"></div>
       </div>
     </form>
   </div>
+</div>
 

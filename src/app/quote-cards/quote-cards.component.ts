@@ -6,7 +6,6 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./quote-cards.component.css']
 })
 export class QuoteCardsComponent implements OnInit {
-
   constructor() { }
 
   ngOnInit(): void {

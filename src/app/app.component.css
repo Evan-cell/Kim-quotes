@@ -1,6 +1,6 @@
 @import url(https://fonts.googleapis.com/css?family=Montserrat:400,700);
 
-html{    background:url(http://thekitemap.com/images/feedback-img.jpg) no-repeat;
+html{    background:url(https://images.unsplash.com/photo-1534972195531-d756b9bfa9f2?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTN8fGNvZGV8ZW58MHx8MHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=700&q=60) no-repeat;
   background-size: cover;
   height:100%;
 }
@@ -13,6 +13,9 @@ html{    background:url(http://thekitemap.com/images/feedback-img.jpg) no-repeat
 	width:100%;
 	float:left;
 	padding-top:0px;
+}
+.container{
+  background-image: url("https://images.unsplash.com/photo-1534972195531-d756b9bfa9f2?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTN8fGNvZGV8ZW58MHx8MHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=700&q=60");
 }
 
 #form-div {
@@ -29,6 +32,106 @@ html{    background:url(http://thekitemap.com/images/feedback-img.jpg) no-repeat
 	margin-left: -260px;
   -moz-border-radius: 7px;
   -webkit-border-radius: 7px;
+}
+.wrapper {
+  margin: 0 auto;
+  width: 90%;
+}
+.title{
+  text-align: center;
+  color: white;
+ text-decoration: underline;
+ font-weight: 900;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+.cards {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.container{
+  background-image: url(https://images.unsplash.com/photo-1515879218367-8466d910aaa4?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MjV8fGNvZGV8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60);
+  background-size: cover;
+  margin: 0;
+  margin-top: 1px;
+}
+
+.cards li {
+  border: 2px solid #490A3D;
+  border-radius:5px;
+  background-color: #BD1550;
+  color: #fff;
+  flex: 1 1 200px;
+}
+
+.cards h2 {
+  background-color: #490A3D;
+  margin: 0;
+  padding: 10px;
+}
+.container{
+  margin-left: 10px;
+  margin-right: 10px;
+}
+.cards p {
+  padding: 10px;
+}
+
+.flex {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 -10px;
+}
+
+.flex li {
+  flex: 1 1 200px;
+  margin: 10px;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  /*grid-template-columns: repeat(auto-fill, minmax(200px 1fr));*/
+  grid-gap: 20px;
+}
+.button {
+  border-radius: 4px;
+  background-color: #030f80;
+  border: none;
+  color: #FFFFFF;
+  text-align: center;
+  font-size: 28px;
+  padding: 20px;
+  width: 200px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 5px;
+}
+
+.button span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.button span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.button:hover span {
+  padding-right: 25px;
+}
+
+.button:hover span:after {
+  opacity: 1;
+  right: 0;
 }
 
 .feedback-input {
@@ -87,7 +190,7 @@ html{    background:url(http://thekitemap.com/images/feedback-img.jpg) no-repeat
 }
 
 #email:focus{
-	background-image: url(https://images.unsplash.com/photo-1607743386760-88ac62b89b8a?ixid=MnwxMjA3fDB8MHxzZWFyY2h8NTF8fGNvZGV8ZW58MHx8MHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=700&q=60);
+	background-image: url(http://rexkirby.com/kirbyandson/images/email.svg);
 	background-size: 30px 30px;
   background-position: 11px 8px;
 	background-repeat: no-repeat;
