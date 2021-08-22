@@ -1,0 +1,21 @@
+nav img{
+  width: 70px;
+}
+nav{
+  background-color: rgb(49, 6, 167);
+}
+nav ul{
+  float: right;
+  list-style-type: none;
+
+}
+ul li {
+  display: inline-block;
+  padding: 10px;
+  font-weight: 900;
+
+}
+li a {
+  text-decoration: none;
+  color: white;
+}
