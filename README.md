@@ -2,6 +2,15 @@
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 12.2.2.
 
+# DESCRIPTION
+
+The app is a quote app where one can read quotes like the quotes that they love or dislike
+
+# INSTALLATION
+
+The app is created using Angular Cli you can run the command ng new then type the name of the app in your computers terminal.
+
+
 ## Development server
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
